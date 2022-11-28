@@ -20,6 +20,9 @@ h2 {
 
 p {
   margin: 5px 100px 5px 5px;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 110%;
 }
 
 #tartalom {
@@ -30,6 +33,22 @@ p {
   background-color: rgba(222, 222, 222);
   margin-bottom: 20px;
   padding: 40px;
+  margin-top: 40px;
+  width: 870px;
+  margin: 0 auto;
+}
+
+#jobbra{
+  float: right;
+  margin: 30px;
+  margin-right: 100px;
+  margin-left: 500px;
+}
+
+#jobbra::after{
+  content: "";
+  clear: both;
+  display: table;
 }
 
 li {
@@ -47,4 +66,9 @@ a {
   color: white;
   padding: 10px;
   text-indent: 30px;
+}
+
+a:hover{
+  color: red;
+
 }
